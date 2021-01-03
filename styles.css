@@ -1,0 +1,169 @@
+*{
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #D8DFD7;
+    color: white; 
+} 
+
+
+/* Universal container for site */
+.container{
+    max-width: 85%;
+    text-align: center;
+    margin: auto;
+}
+
+.center {
+
+}
+
+/* Modifying the presentation of column */
+
+
+.column {
+    float: left;
+    width: 50%; 
+}
+
+.column p{
+    padding: 10px 75px; 
+    text-align: center; 
+}
+
+.row:after{
+    clear: both;
+    content: "";
+    display: table; 
+}
+
+/* Heading & Intro */
+
+.heading h3, .intro h1, .intro h3{
+    color: #2D4D44;
+}
+.intro img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+/* Product Categories */
+
+.product-categories {
+    border: 2px solid black; 
+    margin: 20px 0 20px 0;
+}
+
+
+.product-categories, .product-categories h3, .product-categories p, .product-categories div{ 
+
+    background-color: #BFC9C1; 
+}
+
+/* Image Row One  */
+
+.image-row-one{
+
+}
+
+.image-row-one .row{
+    background-color: #2D4D44;
+    height: 800px;  
+}
+.image-row-one .row .column{
+    background-color: #2D4D44; 
+}
+
+.image-row-one .row .column img{
+    margin: 100px 10px 10px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+/* Image Row Two */
+
+.image-row-two{
+    margin-top: 10px; 
+    background-color: black;
+}
+
+.image-row-two .row{
+    background-color: black;
+    height: 1450px; 
+}
+.image-row-two .row .column{
+    background-color: black; 
+}
+
+.image-row-two .row .column img{
+    margin: 100px 10px 10px 0; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    
+}
+
+/* Feautres */
+
+.features{
+    padding-top: 50px; 
+}
+
+.features .row{
+
+}
+
+.features .row .column h2{
+    font-size: 36px; 
+    color: #2D4D44; 
+}
+
+.features .row .column {
+
+}
+
+.features .row .column p{
+    padding-top: 25px; 
+    color: #2D4D44;
+}
+
+.features .row .column .row {
+
+}
+
+.features .row .column .row .column {
+
+}
+
+.features .row .column .row .column h3, .features .row .column .row .column h3 p {
+
+    color: #2D4D44; 
+}
+
+/* Bottom Banner */
+
+.banner-bottom h1{
+    background-color: #2D4D44; 
+    padding: 50px; 
+}
+
+/* Footer */
+
+.footer .row .column h3{
+
+    color: #2D4D44;  
+    font-size: 28px; 
+}
+
+/* Making the site responsive */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="column"] {
+      width: 100%;
+    }
+  }
